@@ -1,0 +1,42 @@
+//Problema 04
+//Elaborar un algoritmo que permita leer 3 números e imprima el mayor. Debe validar que sean diferentes, 
+//es decir, si hay números iguales debe enviar un mensaje de error.
+
+//Algoritmo
+1.Inicio
+2.Pedir al usuario que ingrese tres numeros cualquiera. 
+3.Si el primero numero que ingresó es igual al segundo o el segundo es igual al tercero, o el segundo es igual al tercero.
+Se mostrará un mensaje de error diciendo que los números son iguales.
+4.Caso contrario, si el primer número es mayor al segundo y mayor al tercero. Se mostrará un mensaje diciendo que el primer 
+número es el término mayor.
+5.Caso contrario, si el segundo número es mayor al primero y mayor al tercero. Se mostrará un mensaje diciendo que el segundo
+número es el término mayor.
+6.Caso contrario se mostrará un mensaje diciendo que el mayor número es el tercero.
+7.Fin
+
+//Miniespecificación
+1.Inicio
+2.n1, i[0,n]
+3.n2, i[0,n]
+4.n3, i[0,n]
+5.Escribir "Ingrese el primer número".
+6.Leer n1
+7.Escribir "Ingrese el segundo número"
+8.Leer n2	
+9.Escribir "Ingrese el tercer número"
+10.Leer n3
+11.Si n1 = n2 OR n1 = n3 OR n2=n3
+12.// mostrar el error por ser iguales
+13.Escribir "Error, los números ingresados son iguales"
+14.Caso contrario, si n1 > n2 AND n1 > n3
+15.Escribir "El número mayor es:" + n1
+16.Caso contrario, Si n2 > n1 AND n2 > n3
+17.Escribir "El número mayor es:" + n2
+18.Caso contrario, Escribir "El número mayor es:" +n3
+19.Fin si
+20.Fin si
+21.Fin si
+22.Fin
+
+
+

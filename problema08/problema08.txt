@@ -1,0 +1,23 @@
+// Problema 08
+
+1. Inicio
+2. double yardas, d[0,n]
+3. double pulgadas, d[0,n]
+4. double pies, d[0,n]
+5. String cadena_1, x(1000)[{A-Z}, {a-z}, {1,n}, {BS}] <-- " "
+6. cadena_2, x(1000)[{A-Z}, {a-z}, {1,n}, {BS}] <-- " "
+7. String cadena_final, x(1000)[{A-Z}, {a-z}, {1,n}, {BS}] 
+8. int base <-- 1
+9. int limite, i[0,n]
+10. Si (limite < 0) entonces
+11. 	Escribir ("Solamente se permite valores positivos y números")
+12. caso contrario
+13. 	yardas <-- (base * 1) / 0.9144
+14. 	pulgadas <-- (base * 39.3701) / 1 
+15. 	pies <-- (base * 3.28084) / 1
+16. 	cadena_1 <-- ("| Metros | Yardas | Pulgadas | Pies  |")
+17. 	base <-- base + 1
+18. 	cadena_2 <-- (cadena_2\n + "|" +  base   + "|" + yardas + "|" + pulgadas +  "|" + pies "|")
+19. 	cadena_final <-- (cadena_1 + cadena_2)
+20. Fin si
+21. Escribir (cadena_final)

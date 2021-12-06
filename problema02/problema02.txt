@@ -1,0 +1,62 @@
+//Problema 02
+//En un almacén de venta de trajes, si se compra uno se hace el 20% de descuento, 
+//si se compran 2, el 25%, si se compran 3, el 40%, y si compra más de 3, el 50%.
+//Elaborar un algoritmo que lea la cantidad de trajes y el precio unitario (todos tienen el mismo precio)
+//e imprima el subtotal por pagar, el descuento y el total por pagar.
+
+//Algoritmo
+1.Inicio
+1. Ingresar el la cantidad de trajes a comprar.
+2. Ingresar el precio del traje a comprar.
+3. Si se compra un traje se hace un descuento del 20 porciento.
+4. Si se compran dos se hace un descuento del 25 porciento.
+5. Si se compran tres se hace un descuento del 40 porciento.
+6. Si se compran más de tres se hace un descuento del 50 porciento.
+7. Se multiplica la cantidad de trajes por el precio del traje, esto será el subtotal.
+8. Del subtotal, se extrae el porcentaje de acuerdo a la condición de trajes a comprar, esto será el valor
+a descontar.
+9. Se resta el subtotal menos el valor a dscontar.
+10. Se muestra en la pantalla el subtotal, el descuento realizado y el total a pagar.
+12.Fin
+
+//Mini especificación
+1. Inicio
+2. numero_trajes, i[o,n]
+3. costo_traje, d[o,n]
+4. subtotal, d[o,n] 
+5. total, d[o,n] 
+6. porcentaje_1 <-- 20
+7. porcentaje_2 <--25
+8. porcentaje_3 <--40
+9. porcentaje_4 <--50
+10. descuento <-- 0
+11. Escribir "Ingrese la cantidad de trajes "
+12. Leer numero_trajes
+13. Escribir "Ingrese el precio del traje "
+14. Leer costo_traje
+15. subtotal<-- costo_traje * cantidad_trajes
+16. Si numero_trajes = 1 
+17. subtotal = costo_traje * numero_trajes
+18. descuento = (subtotal * porcentaje_1 / 100)
+19. total = subtotal - descuento
+20. Caso contrario Si numero_trajes = 2
+21. subtotal = costo_traje * numero_trajes
+22. descuento = (subtotal * porcentaje_2 / 100)
+23. Caso contrario Si numero_trajes = 3
+24. subtotal = costo_traje * numero_trajes
+25. descuento = (subtotal * porcentaje_3 / 100)
+26. Caso contrario Si numero_trajes > 3
+27. subtotal = costo_traje * numero_trajes
+28. descuento = (subtotal * porcentaje_4 / 100)
+29.Fin si
+30.Fin si
+31.Fin si
+32.Fin si
+33. Escribir ("Subtotal: %.2f\n" + "Descuento aplicado: %.2f\n" + "El total a pagar por la 
+34.              + compra del los trajes es: %s\n",
+35.                subtotal,
+36.                descuento,
+37.                total);
+38. Fin
+
+

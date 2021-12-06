@@ -1,0 +1,21 @@
+// Problema 07
+1. Inicio 
+2. numero_par, i[2,n]
+3. resultado, i[2,n]
+4. contador <-- 0
+5. Escribir("Ingrese un numero par")
+6. Leer numero_par
+7. Si (numero_par < 2) entonces
+8.    Escribir ("El número no se encuentra en el rango permitido")
+9. caso contrario
+10. 	Si (numero_par % 2 != 0) entonces
+11. 	    Escribir ("El número ingresado no es par")
+12. 	caso contrario
+13. 		//ciclo mientras
+14.             mientras (resultado <= numero_par) haga
+15.             resultado = resultado + 2
+16.		Fin mientras
+17. 	     Escribir("La suma de los números pares es: " + resultado")
+18. 	Fin si
+19. Fin si 
+20. Fin

@@ -1,0 +1,25 @@
+//Miniespecificación
+1.Inicio
+2.signo<-- " "
+3.signo1 <-- "-"
+4.signo2 <-- "+"
+5.numero1 <-- 12
+6.numero2 <--11
+7.limite <--48
+8.limite2<--44
+9.cadenaFinal = "%s%s%d %s%d "%(cadenaFinal, signo2, numero1, signo1, numero2)
+10.Mientras numero2 <= limite2 OR numero1 <= limite , Entonces
+11.numero1 = numero1 + 12
+12.numero2 = numero2 + 11
+13.Si numero1 MOD 12 = 0
+14.signo = signo2
+15.Caso contrario, si numero2 = 11 OR numero2 MOD 11 = 0
+16.signo = signo1
+17.Fin si
+18.Fin si
+19.Fin mientras
+20.Escribir cadenaFinal
+21.Fin
+
+
+

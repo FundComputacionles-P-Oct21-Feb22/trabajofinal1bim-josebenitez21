@@ -1,0 +1,42 @@
+// Problema10
+------------------------------Algoritmo-----------------------------
+1. Inicio
+2. Ingresar el dato para ser calculado
+3. agregar el dato ingresado por teclado a la variable lista
+4. Preguntar al usuario si desea ingresar más datos
+5. Si el usuario decide ingresar más datos repetirá el ciclo hasta que ponga no
+6. Se procede a calcular la media y la varianza si la condición se ha cumplido
+7. Se presenta en pantalla el valor de media
+8. Se presenta en pantalla el valor de la varianza
+9. Fin
+ 
+--------------------------Miniespecificación------------------------
+1. Inicio
+2. varianza, d[0,n] <-- 0
+3. bandera <-- True
+4. media, d[0,n] <-- 0
+5. suma, d[0,n] <-- 0
+6. num, d[0,n] <-- 0
+7. suma_desviaciones <-- 0
+8. lista, x(100)[{1,n}]<--[]
+9. mientras(bandera) haga
+10. escribir ("Ingresar el dato a ser calculado: ")
+11. leer num
+12. agregar a lista(num)
+12. Escribir ("Desea ingresar otro dato: [Si][No]: ")
+14. Leer pregunta_salida
+15. si (pregunta_salida == "SI" OR pregunta_salida == "Si" OR pregunta_salida == "Si")
+16. caso contrario
+17. 	bandera <-- False
+18. 	cantidadvalor <-- len(lista)
+19.  	Para (num en el rango(len(lista)):
+20.        	suma <-- suma + lista[num]
+21.        media <-- suma / cantidadvalor
+22.  	Para(num en el rango(len(lista)):
+23.        	suma_desviaciones <-- suma_desviaciones + ((lista[num] - media) ** 2)
+24.  	varianza <-- suma_desviaciones / cantidadvalor
+25. Fin mientras
+26. escribir ("El valor de la media obtenido es:"+ media)
+27. escribir("El valor de varianza final obtenido es: " + varianza)
+28. Fin
+ 

@@ -1,0 +1,25 @@
+// Elaborar un programa que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/100
+-----------------Algoritmo---------------------------
+1. Inicio
+2. Numerador es igual a 1
+3. Denominador empieza en 1
+4. Mientras el denominador sea menor a 100 haga
+5. El resultado es igual al numerador dividido para el denominador
+6. Presentar en la pantalla la acumulacion de cadena simbolo, numerador, raya de fracción y denominador
+7. Sumar la división entre el numerador para el denominador cuantas veces lo determine el mientras
+8. Repetir el ciclo hasta que el denominador sea igual a 100
+9. Presentar en pantalla el resultado de la suma acumulada
+10. Fin
+-------------Miniespecificación-----------------------
+1. Inicio 
+2. numerador, int[1] <-- 1
+3. denominador, int[1, 100] <-- 1
+4. division_suma, d[0,n] <-- 0
+5. mientras (denominador < 100) haga
+6. 	     resultado <-- numerador / denominador
+7. 	     denominador <-- denominador + 1
+8. 	     Escribir ("+" + numerador + "/" + denominador)
+9. 	     division_suma <-- division_suma + resultado
+10. Fin mientras
+11. Escribir ("El resultado obtenido de la suma de las fracciones es:\n" + division_suma)
+12. Fin
